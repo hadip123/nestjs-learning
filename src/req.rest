@@ -1,1 +1,15 @@
-GEt http://localhost:3000/test
+POST http://localhost:3000/products/create
+Content-Type: application/json
+
+{
+    "title": "p4",
+    "description": "desc of p4",
+    "price": 3000
+}
+
+###
+GET http://localhost:3000/products
+
+###
+
+GET http://localhost:3000/products/ad77b59c-357f-4376-84aa-21d7b4e0f9f8
